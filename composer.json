@@ -1,0 +1,40 @@
+{
+    "name": "sufore/framework-agnostic",
+    "license": "MIT",
+    "type": "project",
+    "description": "Example project that represent framework agnostic architecture",
+    "require": {
+        "php": "^7.3",
+        "php-http/client-implementation": "^1.0",
+        "php-http/guzzle6-adapter": "^1.1",
+        "guzzlehttp/guzzle": "^6.0",
+        "sensio/framework-extra-bundle": "^5.5",
+        "symfony/flex": "^1.3.1",
+        "symfony/messenger": "4.4.*",
+        "symfony/yaml": "4.4.*",
+        "ramsey/uuid": "^3.8",
+        "doctrine/dbal": "^2.9",
+        "doctrine/orm": "^2.6",
+        "ocramius/proxy-manager": "^2.6",
+        "monolog/monolog": "^2.0",
+        "tedivm/stash": "^0.14",
+        "phpspec/phpspec": "^5.1",
+        "behat/behat": "^3.5",
+        "psr/log": "^1.0",
+        "psr/cache": "^1.0"
+    },
+    "require-dev": {
+        "symfony/dotenv": "4.4.*",
+        "symfony/profiler-pack": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sufore\\FrameworkAgnostic\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sufore\\FrameworkAgnostic\\": "tests/"
+        }
+    }
+}

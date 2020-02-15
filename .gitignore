@@ -1,0 +1,16 @@
+###> project ###
+/.buildpath
+/.project
+/.settings
+/.idea
+/.php_cs.cache
+/.git/*
+/vendor/*
+/bin/*
+###< project ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
